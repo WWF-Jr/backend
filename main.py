@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, redirect
 import smtplib, ssl
 from dotenv import load_dotenv
 import os
@@ -50,6 +50,6 @@ def send():
 
 
 @app.route("/")
-def hello_world():
-    return "Hello, World!"
+def home():
+    return redirect("https://wwf-jr.netlify.app/", code=302)
 
