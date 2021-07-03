@@ -1,0 +1,54 @@
+{
+    "continents": {
+	"asia": [
+	    {
+		"name": "Tarsiers",
+		"id": 0
+	    },
+	    {
+		"name": "Javan Rhino",
+		"id": 1
+	    },
+	    {
+		"name": "Yangtze River Dolphin",
+		"id": 2
+	    },
+	    {
+		"name": "Red Panda",
+		"id": 3
+	    },
+	    {
+		"name": "The Saola",
+		"id": 4
+	    },
+	    {
+		"name": "Saiga Antelope",
+		"id": 5
+	    },
+	    {
+		"name": "Langur Chato",
+		"id": 6
+	    },
+	    {
+		"name": "Proboscis Monkey",
+		"id": 7
+	    }
+	],
+	"africa": [],
+	"south-america": [],
+	"north-america": [],
+	"europe": [],
+	"australia": [],
+	"antartica": []
+    },
+    "facts": [
+	"This rare species can only be found in Southeast Asia, mainly in Borneo",
+	"The Javan Rhinos are the most threatened of the five rhino species",
+	"Also known as ‘Baiji’ or “Goddess of the Yangtze”, the Yangtze River Dolphin is a critically endangered species and according to scientists, the species may already be extinct.",
+	"Unlike Giant Pandas, the Red Pandas are much smaller and have a red, bear-like body which is larger than a domestic cat, and thick russet fur",
+	"Unlike Giant Pandas, the Red Pandas are much smaller and have a red, bear-like body which is larger than a domestic cat, and thick russet fur",
+	"What’s amazing about the Saiga Antelope is the animal’s amazing migrations, and apart from moving around in groups (which is totally normal), the species has other reasons to increase their momentum: loss of habitat and illegal hunting",
+	"Oh my, that looks like an elf! It’s actually a Langur Chato, a primate found in Asia, that lives up to 13,000 feet above ground",
+	"It’s funny that the Indonesians gave the Proboscis Monkey the nickname ‘Dutch Monkey’"
+    ]
+}
