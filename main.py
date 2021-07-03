@@ -1,15 +1,22 @@
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
 false = False
 true = True
 
+
 @app.route("/")
 def hello_world():
     return "Hello, World!"
 
 
-app.run(host="127.0.0.1", port=8000, debug=false)
+if os.environ["PORT"]:
+    port = int(os.environ["PORT"])
+else:
+    port = 8000
+
+app.run(host="127.0.0.1", port=port, debug=false)
 
 
