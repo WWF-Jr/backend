@@ -12,12 +12,10 @@ load_dotenv()  # take environment variables from .env.
 
 def send_email(name, subject, email, msg):
     port = 587  # For starttls
-    smtp_server = "smtp.gmail.com"
-    sender_email = "robot@nalinangrish.me"
-    nrdybhu1_mail = "NrdyBhu1@gmail.com"
-    nalin_mail = "nalinangrish2005@gmail.com"
-    cindy_mail = "cindysongh@gmail.com"
-    password = os.environ["PSSWD"]
+    smtp_server = os.getenv("SMTP")
+    sender_email = os.getenv("SENDER")
+    admins = ["NrdyBhu1@gmail.com", "nalinangrish2005@gmail.com", "cindysongh@gmail.com"]
+    password = os.getenv("PSSWD")
     message = f"""
     Subject: {subject}
     From: {name}
@@ -31,9 +29,8 @@ def send_email(name, subject, email, msg):
         server.starttls(context=context)
         server.ehlo()  # Can be omitted
         server.login(sender_email, password)
-        server.sendmail(sender_email, nrdybhu1_email, message)
-        server.sendmail(sender_email, nalin_email, message)
-        server.sendmail(sender_email, cindy_email, message)
+        for addr in admins:
+            server.sendmail(sender_email, addr, message)
 
 
 @app.route("/contact" , methods=["GET", "POST"])
