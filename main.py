@@ -1,5 +1,5 @@
 from flask import Flask
-import os
+# import os
 
 app = Flask(__name__)
 
@@ -12,11 +12,8 @@ def hello_world():
     return "Hello, World!"
 
 
-if os.environ["PORT"]:
-    port = int(os.environ["PORT"])
-else:
-    port = 8000
-
-app.run(host="127.0.0.1", port=port, debug=false)
-
+# if os.environ["PORT"]:
+#     port = int(os.environ["PORT"])
+# else:
+#     port = 8000
 
