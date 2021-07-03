@@ -36,7 +36,7 @@ def send_email(name, subject, email, msg):
         server.sendmail(sender_email, cindy_email, message)
 
 
-@app.route("/send", methods=["GET", "POST"])
+@app.route("/contact" , methods=["GET", "POST"])
 def send():
     if request.method == "POST":
         data = request.get_json()
