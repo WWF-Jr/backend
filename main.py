@@ -13,7 +13,7 @@ load_dotenv()  # take environment variables from .env.
 def send_email(name, subject, email, msg):
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
-    sender_email = "unityusr@gmail.com"
+    sender_email = "robot@nalinangrish.me"
     nrdybhu1_mail = "NrdyBhu1@gmail.com"
     nalin_mail = "nalinangrish2005@gmail.com"
     cindy_mail = "cindysongh@gmail.com"
