@@ -37,5 +37,12 @@ def get_conts():
     return conts
 
 
+def get_animals_of_cont(cont):
+    animals = []
+    for animal in data['continents'][cont]:
+        animals.append(animal['name'])
+    return animals
+
+
 def get_cont_info(cont):
     return data['info'][cont]

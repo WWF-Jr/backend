@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, redirect
 from dotenv import load_dotenv
 from markupsafe import escape
-from lib import send_email, get_conts, get_cont_info
+from lib import *
 
 # Create flask app
 app = Flask(__name__)
@@ -50,3 +50,14 @@ def fetch_cont_info(cont):
             return jsonify({"success":false, "error": "No such continent!!"})
     except Exception as e:
         return jsonify({"success":false, "error":e})
+
+
+@app.route("/<string:cont>/animals")
+def fetch_cont_animals(cont):
+    try:
+        if cont in get_conts():
+            return jsonify({"success":true, "cont":escape(cont), "animals":get_animals_of_cont(escape(cont))})
+        else:
+            return jsonify({"success":false, "error": "No such continent!!"})
+    except Exception as e:
+        return jsonify({"success":false, "error":e}) 
