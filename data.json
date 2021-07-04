@@ -2,69 +2,69 @@
     "continents": {
         "asia": [
 	    {
-                "name": "Tarsiers",
+                "name": "tarsiers",
                 "id": 0
             },
             {
-                "name": "Javan Rhino",
+                "name": "javan-rhino",
                 "id": 1
             },
             {
-                "name": "Yangtze River Dolphin",
+                "name": "yangtze-river-dolphin",
                 "id": 2
             },
             {
-                "name": "Red Panda",
+                "name": "red-panda",
                 "id": 3
             },
             {
-                "name": "The Saola",
+                "name": "the-saola",
                 "id": 4
             },
             {
-                "name": "Saiga Antelope",
+                "name": "saiga-antelope",
                 "id": 5
             },
             {
-                "name": "Langur Chato",
+                "name": "langur-chato",
                 "id": 6
             },
             {
-                "name": "Proboscis Monkey",
+                "name": "proboscis-monkey",
                 "id": 7
             }
 	],
         "africa": [
 	    {
-		"name": "Pangolin",
+		"name": "pangolin",
 		"id": 8
 	    },
 	    {
-		"name": "African Elephant",
+		"name": "african-elephant",
 		"id": 9
 	    },
 	    {
-		"name": "Lion",
+		"name": "lion",
 		"id": 10
 	    },
 	    {
-		"name": "Cheetah",
+		"name": "cheetah",
 		"id": 11
 	    },
 	    {
-		"name": "African Wild Dog",
+		"name": "african-wild-dog",
 		"id": 12
 	    },
 	    {
-		"name": "Black Rhino",
+		"name": "black-rhino",
 		"id": 13
 	    },
 	    {
-		"name": "Mountain Gorilla",
+		"name": "mountain-gorilla",
 		"id": 14
 	    },
 	    {
-		"name": "Addax",
+		"name": "addax",
 		"id": 15
 	    }
 	],

@@ -46,3 +46,9 @@ def get_animals_of_cont(cont):
 
 def get_cont_info(cont):
     return data['info'][cont]
+
+def get_animal_fact(cont, animal):
+    for anim in data['continents'][cont]:
+        if animal == anim['name']:
+            aid = anim['id']
+    return data['facts'][aid]
