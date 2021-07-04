@@ -1,5 +1,9 @@
 import os
 import smtplib, ssl
+import json
+
+
+data = json.load(open("data.json"))
 
 
 def send_email(name, subject, email, msg):
@@ -23,3 +27,15 @@ def send_email(name, subject, email, msg):
         server.login(sender_email, password)
         for addr in admins:
             server.sendmail(sender_email, addr, message)
+            
+            
+def get_conts():
+    conts = []
+    for i in data['continents']:
+        conts.append(i)
+
+    return conts
+
+
+def get_cont_info(cont):
+    return data['info'][cont]
