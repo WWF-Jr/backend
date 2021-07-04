@@ -1,7 +1,7 @@
 {
     "continents": {
         "asia": [
-	    {
+            {
                 "name": "tarsiers",
                 "id": 0
             },
@@ -33,46 +33,115 @@
                 "name": "proboscis-monkey",
                 "id": 7
             }
-	],
+        ],
         "africa": [
-	    {
-		"name": "pangolin",
-		"id": 8
+            {
+                "name": "pangolin",
+                "id": 8
+            },
+            {
+                "name": "african-elephant",
+                "id": 9
+            },
+            {
+                "name": "lion",
+                "id": 10
+            },
+            {
+                "name": "cheetah",
+                "id": 11
+            },
+            {
+                "name": "african-wild-dog",
+                "id": 12
+            },
+            {
+                "name": "black-rhino",
+                "id": 13
+            },
+            {
+                "name": "mountain-gorilla",
+                "id": 14
+            },
+            {
+                "name": "addax",
+                "id": 15
+            }
+        ],
+        "south-america": [
+            {
+                "name": "amazonian-manatee",
+                "id": 16
+            },
+            {
+                "name": "galapagos-giant-tortoise",
+		"id": 17
+            },
+            {
+		"name": "golden-lion-tamarin",
+		"id": 18
+	    },
+            {
+		"name": "wonderfully-bristled-turks-cap-cactus",
+		"id": 19
+	    },
+            {
+		"name": "waved-albatross",
+		"id": 20
 	    },
 	    {
-		"name": "african-elephant",
-		"id": 9
+		"name": "orinoco-crocodile",
+		"id": 21
 	    },
-	    {
-		"name": "lion",
-		"id": 10
+            {
+		"name": "panamanian-golden-frog",
+		"id": 22
 	    },
-	    {
-		"name": "cheetah",
-		"id": 11
-	    },
-	    {
-		"name": "african-wild-dog",
-		"id": 12
-	    },
-	    {
-		"name": "black-rhino",
-		"id": 13
-	    },
-	    {
-		"name": "mountain-gorilla",
-		"id": 14
-	    },
-	    {
-		"name": "addax",
-		"id": 15
+            {
+		"name": "spixs-macaw",
+		"id": 23
 	    }
-	],
-        "south-america": [],
-        "north-america": [],
-        "europe": [],
-        "australia": [],
-        "antartica": []
+        ],
+        "north-america": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "europe": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "australia": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "antartica": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
     },
     "facts": [
         "This rare species can only be found in Southeast Asia, mainly in Borneo",
@@ -83,17 +152,25 @@
         "What's amazing about the Saiga Antelope is the animal's amazing migrations, and apart from moving around in groups (which is totally normal), the species has other reasons to increase their momentum: loss of habitat and illegal hunting",
         "Oh my, that looks like an elf! It’s actually a Langur Chato, a primate found in Asia, that lives up to 13,000 feet above ground",
         "It's funny that the Indonesians gave the Proboscis Monkey the nickname 'Dutch Monkey'",
-	"The pangolin is the world’s only scaled mammal. Imagine a cross between an armadillo, an anteater and a viper – that’s the pangolin",
-	"Unlike the pangolin, African elephants have incredibly strong family relationships. They’re astonishingly intelligent and compassionate, and poaching creates innumerable elephant orphans",
-	"The lion’s kingdom shrinks every year. Habitat loss is its greatest threat; as human populations increase, lions are forced into smaller territories that cannot sustain their numbers",
-	"The world’s fastest mammal is also one of nature’s toughest independent mothers. Female cheetahs live in solitude, raising their young, hiding them from predators and hunting for them alone",
-	"The world’s most effective predator is one of the most rarely seen safari animals. Their packs require lots of protected space because they can range over 25 miles regularly",
-	"The lion, leopard, African buffalo, endangered black rhino, and elephant make up the legendary Big Five. Tanzania is one of the last places on earth you can spot them all in one day",
-	"Seeing wild mountain gorillas is one of the greatest treasures in the world of wildlife viewing. Like elephants, gorillas have extremely strong family connections. Some rangers have devoted their lives to raising juvenile gorillas orphaned by poaching",
-	"A white-furred, desert-loving antelope, the addax is nearly extinct in the Saharan deserts. Their numbers continue to dwindle due to poaching and the ecological disturbance caused by oil exploration"
+        "The pangolin is the world’s only scaled mammal. Imagine a cross between an armadillo, an anteater and a viper – that’s the pangolin",
+        "Unlike the pangolin, African elephants have incredibly strong family relationships. They’re astonishingly intelligent and compassionate, and poaching creates innumerable elephant orphans",
+        "The lion’s kingdom shrinks every year. Habitat loss is its greatest threat; as human populations increase, lions are forced into smaller territories that cannot sustain their numbers",
+        "The world’s fastest mammal is also one of nature’s toughest independent mothers. Female cheetahs live in solitude, raising their young, hiding them from predators and hunting for them alone",
+        "The world’s most effective predator is one of the most rarely seen safari animals. Their packs require lots of protected space because they can range over 25 miles regularly",
+        "The lion, leopard, African buffalo, endangered black rhino, and elephant make up the legendary Big Five. Tanzania is one of the last places on earth you can spot them all in one day",
+        "Seeing wild mountain gorillas is one of the greatest treasures in the world of wildlife viewing. Like elephants, gorillas have extremely strong family connections. Some rangers have devoted their lives to raising juvenile gorillas orphaned by poaching",
+        "A white-furred, desert-loving antelope, the addax is nearly extinct in the Saharan deserts. Their numbers continue to dwindle due to poaching and the ecological disturbance caused by oil exploration",
+        "Amazonian manatees are found in the murky waters of the Amazon River. They are one of three species of manatee found between South America and Africa",
+	"Only found in the Galapagos Islands, 600 miles off the coast of Ecuador, Galapagos tortoise populations were historically decimated by sailors who stored them on ships to use as a source of food and water on long Pacific voyages",
+	"Found only in the Atlantic forest of Brazil, recent relocation and captive breeding programmes have bettered the tamarin’s lot, improving their IUCN population assessment from ‘Critically Endangered’ to ‘Endangered’",
+	"Perhaps the best-named of all cacti, the Turks cap is only found in an 800km2 area in the state of Bahia, Brazil. Existing in a series of sub-populations which are under threat by clearance for agriculture, this species is also collected from the wild by local communities due to the belief that they keep away evil spirits; as a result, this species is in decline.",
+	"Another species unique to the Galapagos Islands, this seabird uses its 2.4 metre wingspan to roam hundreds of miles hunting for fish over the Pacific Ocean",
+	"The Orinoco crocodile is the largest predator in the Americas: males can reach almost six metres long and weigh nearly half a ton. Only found in the Orinoco River in Venezuela and Colombia, these animals were hunted to near extinction during the 19th and 20th centuries due to the demand for crocodile leather",
+	"Like most other members of the genus Atelopus, the Golden Frog is critically endangered. Famous for their ‘waving dance’, these little amphibians have evolved a method of communication that doesn’t need sound: a useful adaptation to their noisy habitat among river rapids.",
+	"Spix’s macaw is perhaps the most endangered animal on our list, and almost no hope remains that any wild individuals still exist- the last known wild bird was a male that disappeared in 2000"
     ],
     "info": {
-	"asia": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa. Asia covers an area of 44,579,000 square kilometres (17,212,000 sq mi), about 30% of Earth's total land area and 8.7% of the Earth's total surface area. The continent, which has long been home to the majority of the human population, was the site of many of the first civilizations. Its 4.5 billion people (as of June 2019) constitute roughly 60% of the world's population.",
+        "asia": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa. Asia covers an area of 44,579,000 square kilometres (17,212,000 sq mi), about 30% of Earth's total land area and 8.7% of the Earth's total surface area. The continent, which has long been home to the majority of the human population, was the site of many of the first civilizations. Its 4.5 billion people (as of June 2019) constitute roughly 60% of the world's population.",
         "africa": "Africa is the world's second-largest and second-most populous continent, after Asia in both cases. At about 30.3 million km2 (11.7 million square miles) including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. With 1.3 billion people as of 2018, it accounts for about 16% of the world's human population. Africa's population is the youngest amongst all the continents; the median age in 2012 was 19.7, when the worldwide median age was 30.4. Despite a wide range of natural resources, Africa is the least wealthy continent per capita, in part due to geographic impediments, legacies of European colonization in Africa and the Cold War, predatory/neo-colonialistic activities by Western nations and China, and undemocratic rule and deleterious policies. Despite this low concentration of wealth, recent economic expansion and the large and young population make Africa an important economic market in the broader global context.",
         "south-america": "South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. It can also be described as the southern subcontinent of the Americas. The reference to South America instead of other regions (like Latin America or the Southern Cone) has increased in recent decades due to changing geopolitical dynamics (in particular, the rise of Brazil).",
         "north-america": "North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere. It can also be described as the northern subcontinent of the Americas. It is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the southeast by South America and the Caribbean Sea, and to the west and south by the Pacific Ocean. Because it is on the North American Tectonic Plate, Greenland is included as part of North America geographically.",
