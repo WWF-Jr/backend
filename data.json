@@ -1,241 +1,290 @@
 {
     "continents": {
-        "asia": [
-            {
+        "asia": [{
                 "name": "tarsiers",
-                "id": 0
+                "id": 0,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "javan-rhino",
-                "id": 1
+                "id": 1,
+                "3d": "https://wwf-jr.github.io/3D-Data/javan-rhino.obj"
             },
             {
                 "name": "yangtze-river-dolphin",
-                "id": 2
+                "id": 2,
+                "3d": "https://wwf-jr.github.io/3D-Data/dolphin.obj"
             },
             {
                 "name": "red-panda",
-                "id": 3
+                "id": 3,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "the-saola",
-                "id": 4
+                "id": 4,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "saiga-antelope",
-                "id": 5
+                "id": 5,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "langur-chato",
-                "id": 6
+                "id": 6,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "proboscis-monkey",
-                "id": 7
+                "id": 7,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "africa": [
-            {
+        "africa": [{
                 "name": "pangolin",
-                "id": 8
+                "id": 8,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "african-elephant",
-                "id": 9
+                "id": 9,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "lion",
-                "id": 10
+                "id": 10,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "cheetah",
-                "id": 11
+                "id": 11,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "african-wild-dog",
-                "id": 12
+                "id": 12,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "black-rhino",
-                "id": 13
+                "id": 13,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "mountain-gorilla",
-                "id": 14
+                "id": 14,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "addax",
-                "id": 15
+                "id": 15,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "south-america": [
-            {
+        "south-america": [{
                 "name": "amazonian-manatee",
-                "id": 16
+                "id": 16,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "galapagos-giant-tortoise",
-                "id": 17
+                "id": 17,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "golden-lion-tamarin",
-                "id": 18
+                "id": 18,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "wonderfully-bristled-turks-cap-cactus",
-                "id": 19
+                "id": 19,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "waved-albatross",
-                "id": 20
+                "id": 20,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "orinoco-crocodile",
-                "id": 21
+                "id": 21,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "panamanian-golden-frog",
-                "id": 22
+                "id": 22,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "spixs-macaw",
-                "id": 23
+                "id": 23,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "north-america": [
-            {
+        "north-america": [{
                 "name": "florida-black-bear",
-                "id": 24
+                "id": 24,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "key-deer",
-                "id": 25
+                "id": 25,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "caribou-gaspe-peninsula",
-                "id": 26
+                "id": 26,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "peary-caribou",
-                "id": 27
+                "id": 27,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "sonoran-pronghorn",
-                "id": 28
+                "id": 28,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "wood-bison",
-                "id": 29
+                "id": 29,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "peninsular-bighorn-sheep",
-                "id": 30
+                "id": 30,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "sierra-nevada-bighorn-sheep",
-                "id": 31
+                "id": 31,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "europe": [
-            {
+        "europe": [{
                 "name": "saiga",
-                "id": 32
+                "id": 32,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "iberian-lynx",
-                "id": 33
+                "id": 33,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "bavarian-pine-vole",
-                "id": 34
+                "id": 34,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "mediterranean-monk-seal",
-                "id": 35
+                "id": 35,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "north-atlantic-right-whale",
-                "id": 36
+                "id": 36,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "european-mink",
-                "id": 37
+                "id": 37,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "azorean-bat",
-                "id": 38
+                "id": 38,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "madeira-pipistrelle",
-                "id": 39
+                "id": 39,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "australia": [
-            {
+        "australia": [{
                 "name": "fitzroy-river-turtle",
-                "id": 40
+                "id": 40,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "australian-southern-cassowary",
-                "id": 41
+                "id": 41,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "saltwater-crocodile",
-                "id": 42
+                "id": 42,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "mistletoebird",
-                "id": 43
+                "id": 43,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "tasmanian-devil",
-                "id": 44
+                "id": 44,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "short-beaked-echidna",
-                "id": 45
+                "id": 45,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "laughing-kookaburra",
-                "id": 46
+                "id": 46,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "numbat",
-                "id": 47
+                "id": 47,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ],
-        "antartica": [
-            {
+        "antartica": [{
                 "name": "adélie-penguins",
-                "id": 48
+                "id": 48,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "chinstrap-penguins",
-                "id": 49
+                "id": 49,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "leopard-seals",
-                "id": 50
+                "id": 50,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "elephant-seals",
-                "id": 51
+                "id": 51,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "snow-petrels",
-                "id": 52
+                "id": 52,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "king-penguins",
-                "id": 53
+                "id": 53,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "emperor-penguins",
-                "id": 54
+                "id": 54,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             },
             {
                 "name": "killer-whales",
-                "id": 55
+                "id": 55,
+                "3d": "https://wwf-jr.github.io/3D-Data/tarsier.stl"
             }
         ]
     },
@@ -244,7 +293,7 @@
         "The Javan Rhinos are the most threatened of the five rhino species",
         "Also known as\"Baiji\" or \"Goddess of the Yangtze\", the Yangtze River Dolphin is a critically endangered species and according to scientists, the species may already be extinct.",
         "Unlike Giant Pandas, the Red Pandas are much smaller and have a red, bear-like body which is larger than a domestic cat, and thick russet fur",
-	"Found in Laos and Vietnam, the Saola, or also known as 'Asian Unicorn', is closely related to cattles and is one of the rarest animals in the world. The first encounter was reported in late August, when the villagers of Xaychampon District of Bolikhamxay Province caught it in the wild. Unfortunately, the captured adult male died after several days in captivity",
+        "Found in Laos and Vietnam, the Saola, or also known as 'Asian Unicorn', is closely related to cattles and is one of the rarest animals in the world. The first encounter was reported in late August, when the villagers of Xaychampon District of Bolikhamxay Province caught it in the wild. Unfortunately, the captured adult male died after several days in captivity",
         "What's amazing about the Saiga Antelope is the animal's amazing migrations, and apart from moving around in groups (which is totally normal), the species has other reasons to increase their momentum: loss of habitat and illegal hunting",
         "Oh my, that looks like an elf! It’s actually a Langur Chato, a primate found in Asia, that lives up to 13,000 feet above ground",
         "It's funny that the Indonesians gave the Proboscis Monkey the nickname 'Dutch Monkey'",

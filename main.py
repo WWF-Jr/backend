@@ -67,7 +67,7 @@ def fetch_cont_animal_info(cont, animal):
     animal = animal.lower()
     try:
         if cont in get_conts() and animal in get_animals_of_cont(escape(cont)):
-            return jsonify({"success":true, "cont":escape(cont), "animal":escape(animal), "fact":get_animal_fact(escape(cont), escape(animal))})
+            return jsonify({"success":true, "cont":escape(cont), "animal":escape(animal), "info":get_animal_info(escape(cont), escape(animal))})
         else:
             return jsonify({"success":false, "error": "No such continent or animal!!"})
     except Exception as e:
