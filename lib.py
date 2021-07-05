@@ -3,7 +3,7 @@ import smtplib, ssl
 import json
 
 
-data = json.load(open("data.json"))
+data = json.load(open("data.json", encoding="utf-8"))
 
 
 def send_email(name, subject, email, msg):
