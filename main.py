@@ -46,27 +46,14 @@ def fetch_cont_info(cont):
     cont = cont.lower()
     try:
         if cont in get_conts():
-            return jsonify({"success":true, "cont":escape(cont), "info":get_cont_info(escape(cont))})
+            return jsonify({"success":true, "cont":escape(cont), "info":get_cont_info(escape(cont)), "animals":get_animals_of_cont(escape(cont))})
         else:
             return jsonify({"success":false, "error": "No such continent!!"})
     except Exception as e:
         return jsonify({"success":false, "error":e})
 
-
-# fetches list of animals
-@app.route("/<string:cont>/animals")
-def fetch_cont_animals(cont):
-    cont = cont.lower()
-    try:
-        if cont in get_conts():
-            return jsonify({"success":true, "cont":escape(cont), "animals":get_animals_of_cont(escape(cont))})
-        else:
-            return jsonify({"success":false, "error": "No such continent!!"})
-    except Exception as e:
-        return jsonify({"success":false, "error":e}) 
-
-
-# fetches list of animals
+    
+# fetches info of a animal
 @app.route("/<string:cont>/info/<string:animal>")
 def fetch_cont_animal_info(cont, animal):
     cont = cont.lower()
